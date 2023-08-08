@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100vh;
+    margin: 0;
+    background-color: #4d4343;
+}
+.title{
+    color: #ccc;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.input-container button {
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.input-container input {
+    flex: 1;
+    border: none;
+    width: 300px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+table {
+    margin-top: 50px;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
